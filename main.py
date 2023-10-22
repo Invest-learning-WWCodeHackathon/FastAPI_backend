@@ -27,10 +27,7 @@ import yfinance as yf
 from concurrent.futures import ThreadPoolExecutor
 import openai
 
-os.environ['OPENAI_API_KEY'] = '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'
-
-API_URL = 'https://otelrzfgawehviamvzox.supabase.co'
-API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im90ZWxyemZnYXdlaHZpYW12em94Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5Nzc0MjUzNCwiZXhwIjoyMDEzMzE4NTM0fQ.hWiUenn_2wBoU7eF4eqniiEG6oNwWJwePrAbq_BL4SY'
+#Include openai api key and supabase api key
 
 supabase: Client = create_client(API_URL, API_KEY)
 
